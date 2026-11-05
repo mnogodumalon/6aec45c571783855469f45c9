@@ -1,0 +1,30 @@
+{
+  "VeranstaltungenDialog.tsx": {
+    "titel": "z. B. KI-Workshop Frühjahr",
+    "beginn": "Wann startet die Veranstaltung?",
+    "ort": "z. B. Berlin, Raum 3",
+    "beschreibung": "Worum geht es?",
+    "aktive_interaktion": "Welche Interaktion läuft?"
+  },
+  "InteraktionenDialog.tsx": {
+    "titel": "z. B. Ideensammlung zum Einstieg",
+    "reihenfolge": "z. B. 1",
+    "frage": "Was möchten Sie die Teilnehmenden fragen?",
+    "vorprompt": "Was soll die KI vorab wissen?",
+    "endprompt": "Was soll die KI zum Schluss tun?",
+    "zusammengefuehrter_text": "Alle Antworten zusammengeführt",
+    "ki_antwort": "Was hat die KI geantwortet?",
+    "veranstaltung": "Welche Veranstaltung?"
+  },
+  "FeedbacksDialog.tsx": {
+    "kuerzel": "z. B. MK-01",
+    "feedback_text": "Was möchtest du uns mitteilen?",
+    "absende_kennung": "z. B. FB-2026-001",
+    "interaktion": "Welche Interaktion?"
+  },
+  "TeilnehmerkontakteDialog.tsx": {
+    "kuerzel": "z. B. MK-42",
+    "email": "z. B. name@beispiel.de",
+    "veranstaltung": "Welche Veranstaltung?"
+  }
+}

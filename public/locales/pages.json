@@ -1,0 +1,40 @@
+{
+  "pages": {
+    "en": {
+      "Aktiv": "Active",
+      "Aktive Interaktion": "Active interaction",
+      "Aktivieren": "Activate",
+      "Alle Antworten sind eingetragen.": "All responses have been entered.",
+      "Bearbeiten": "Edit",
+      "Bei {0} ist noch keine Interaktion aktiv.": "No interaction is active for {0} yet.",
+      "Diese Veranstaltung hat noch keine Interaktion.": "This event has no interaction yet.",
+      "Einfügen": "Paste",
+      "Erste Veranstaltung anlegen": "Create first event",
+      "Feedbacks ({0}) von {1}": "Feedback ({0}) from {1}",
+      "Interaktion anlegen": "Create interaction",
+      "Interaktionen — eine aktiv setzen": "Interactions — activate one",
+      "KI-Antwort fehlt noch": "AI response still missing",
+      "Keine Antwort offen.": "No response pending.",
+      "Kopieren": "Copy",
+      "Kopieren nicht möglich — bitte Text im Vollbild markieren": "Copying not possible — please select text in full screen",
+      "Kürzeln": "Abbreviations",
+      "Lege deine erste Veranstaltung an.": "Create your first event.",
+      "Lege eine Veranstaltung mit ihren Interaktionen an, dann scannen Teilnehmende den QR-Code.": "Create an event with its interactions, then participants scan the QR code.",
+      "Neu zusammenführen": "Merge again",
+      "Neue Veranstaltung": "New event",
+      "Noch kein Feedback — zeige den QR-Code, damit Teilnehmende loslegen.": "No feedback yet — show the QR code so participants can get started.",
+      "Noch kein Text zusammengeführt": "No text merged yet",
+      "Noch keine Interaktion angelegt.": "No interaction created yet.",
+      "QR-Code vollbild": "QR code full screen",
+      "Text kopiert": "Text copied",
+      "Text liegt vor, Antwort offen": "Text available, response pending",
+      "Text vollbild": "Text full screen",
+      "Wähle rechts eine Interaktion und setze sie mit einem Klick aktiv.": "Select an interaction on the right and activate it with one click.",
+      "Zusammenführen": "Merge",
+      "Zusammengeführter Text": "Merged text",
+      "noch niemandem": "no one yet",
+      "{0} läuft — {1} von {2}.": "{0} is running — {1} of {2}."
+    }
+  },
+  "v": 1
+}
