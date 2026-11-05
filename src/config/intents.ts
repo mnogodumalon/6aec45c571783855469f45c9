@@ -20,6 +20,7 @@
 import type { ComponentType } from 'react';
 
 // <custom:intent-imports>
+import { IconPlayerPlay, IconArrowMerge, IconRobot } from '@tabler/icons-react';
 // </custom:intent-imports>
 
 export interface IntentLink {
@@ -42,6 +43,9 @@ export interface IntentLink {
 
 export const INTENTS: IntentLink[] = [
   // <custom:intents>
+  { path: '/intents/interaktion-aktivieren', label: { de: 'Interaktion aktivieren', en: 'Activate interaction' }, icon: IconPlayerPlay, description: 'Der Moderator setzt mit einem Klick die aktive Interaktion einer Veranstaltung.' },
+  { path: '/intents/feedbacks-zusammenfuehren', label: { de: 'Feedbacks zusammenführen', en: 'Merge feedback' }, icon: IconArrowMerge, description: 'Alle Feedbacks der aktiven Interaktion in ein Textfeld führen: oben Vorprompt, dann Feedbacks mit Kürzel, unten Endprompt.' },
+  { path: '/intents/ki-antwort-einfuegen', label: { de: 'KI-Antwort einfügen', en: 'Add AI answer' }, icon: IconRobot, description: 'Der Moderator fügt die Antwort des Chatbots bei der Interaktion ein, gleich oder später.' },
   // </custom:intents>
 ];
 
@@ -52,7 +56,7 @@ export const INTENTS: IntentLink[] = [
  * purpose — a scaffold update resets it to false (self-healing if Phase 2
  * never ran).
  */
-export const INTENTS_PENDING = true;
+export const INTENTS_PENDING = false;
 
 /**
  * When the Phase-1 bundle was deployed (ISO, set by the service together with

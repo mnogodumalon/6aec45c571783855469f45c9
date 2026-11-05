@@ -20,6 +20,10 @@ const AppMap = lazy(() => import('@/pages/AppMap'));
 const QrCodeView = lazy(() => import('@/pages/views/QrCodeView'));
 const ZusammengefuehrterTextView = lazy(() => import('@/pages/views/ZusammengefuehrterTextView'));
 // <custom:imports>
+const IntentInteraktionAktivierenPage = lazy(() => import('@/pages/intents/InteraktionAktivierenPage'));
+import { DashboardSkeleton } from '@/components/DashboardStates';
+const IntentFeedbacksZusammenfuehrenPage = lazy(() => import('@/pages/intents/FeedbacksZusammenfuehrenPage'));
+const IntentKiAntwortEinfuegenPage = lazy(() => import('@/pages/intents/KiAntwortEinfuegenPage'));
 // </custom:imports>
 
 // a view outside the chrome never mounts <Layout>, whose effect sets the tab title —
@@ -109,6 +113,9 @@ export default function App() {
                 <Route path="verwaltung/oeffentliche-seiten" element={<PublicPagesAdmin />} />
                 <Route path="verwaltung/oeffentliche-seiten/:slug/felder" element={<PublicPageFields />} />
                 {/* <custom:routes> */}
+                <Route path="intents/interaktion-aktivieren" element={<Suspense fallback={<DashboardSkeleton />}><IntentInteraktionAktivierenPage /></Suspense>} />
+                <Route path="intents/feedbacks-zusammenfuehren" element={<Suspense fallback={<DashboardSkeleton />}><IntentFeedbacksZusammenfuehrenPage /></Suspense>} />
+                <Route path="intents/ki-antwort-einfuegen" element={<Suspense fallback={<DashboardSkeleton />}><IntentKiAntwortEinfuegenPage /></Suspense>} />
                 {/* </custom:routes> */}
                 {/* An unknown hash (a bookmark from before a rebuild renamed the
                     flows, a mistyped link) must not be a blank page. */}
